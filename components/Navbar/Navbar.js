@@ -44,7 +44,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a className="btn btn-ghost normal-case text-xl">Build your PC</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -53,7 +53,7 @@ const Navbar = () => {
           </li>
           <li tabIndex={0}>
             <details>
-              <summary>Parent</summary>
+              <summary>Categories</summary>
               <ul className="p-2">
                 <li>
                   <a>Submenu 1</a>
@@ -70,7 +70,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn">PC Builder</a>
       </div>
     </div>
   )
