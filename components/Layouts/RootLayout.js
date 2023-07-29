@@ -1,8 +1,16 @@
+import Navbar from "../Navbar/Navbar"
 
-
-const RootLayout = ({children}) => {
+const RootLayout = ({ children }) => {
   return (
-    <div>{children}</div>
+    <>
+      <div>
+        <Navbar />
+      </div>
+      <main>{children}</main>
+      <div>
+        <h1>Footer</h1>
+      </div>
+    </>
   )
 }
 
