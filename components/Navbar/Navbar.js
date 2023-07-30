@@ -1,7 +1,22 @@
+import { categories } from '@/utils/helper'
 import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
+  const categoryHandler = (categories) => {
+    let array = []
+    categories.map((data, index) => {
+      array.push(
+        <li key={index}>
+          <Link href={`${Object.values(data).map((item)=>item)}`}>
+            {Object.keys(data).map((item) => item)}
+          </Link>
+        </li>,
+      )
+    })
+    return array
+  }
+
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -32,30 +47,9 @@ const Navbar = () => {
             <li>
               <a>Categories</a>
               <ul className="p-2 z-50">
-              <li>
-                  <Link href={"/cpu"}>CPU / Processor</Link>
-                </li>
-                <li>
-                  <Link href={'/motherboard'}>Motherboard</Link>
-                </li>
-                <li>
-                 <Link href={'/ram'}>RAM</Link>
-                </li>
-                <li>
-                  <Link href={'/powersupply'}>Power Supply Unit</Link>
-                </li>
-                <li>
-                  <Link href={'/storage'}>Storage device</Link>
-                </li>
-                <li>
-                  <Link href={'/monitor'}>Monitor</Link>
-                </li>
-                <li>
-                  <Link href={'/others'}>Others</Link>
-                </li>
+               {categoryHandler(categories)}
               </ul>
             </li>
-           
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-xl"></a>
@@ -66,20 +60,21 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-          <Link href={'/'}>Home</Link>
+            <Link href={'/'}>Home</Link>
           </li>
           <li tabIndex={0}>
             <details>
               <summary>Categories</summary>
-              <ul className="p-2 z-50">
-                <li>
-                  <Link href={"/cpu"}>CPU / Processor</Link>
+              <ul className="p-0 z-50">
+              {categoryHandler(categories)}
+                {/* <li>
+                  <Link href={'/cpu'}>CPU / Processor</Link>
                 </li>
                 <li>
                   <Link href={'/motherboard'}>Motherboard</Link>
                 </li>
                 <li>
-                 <Link href={'/ram'}>RAM</Link>
+                  <Link href={'/ram'}>RAM</Link>
                 </li>
                 <li>
                   <Link href={'/powersupply'}>Power Supply Unit</Link>
@@ -92,11 +87,10 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link href={'/others'}>Others</Link>
-                </li>
+                </li> */}
               </ul>
             </details>
           </li>
-         
         </ul>
       </div>
       <div className="navbar-end">
