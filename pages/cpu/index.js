@@ -5,7 +5,7 @@ const CpuPage = ({ allCpus }) => {
   const { cpu } = allCpus
   return (
     <div>
-      <h1 className='text-center text-lg font-bold pt-5'>All available processors</h1>
+      <h1 className='text-center text-lg font-bold pt-5'>All the available processors</h1>
       <Processor cpu={cpu} />
     </div>
   )
