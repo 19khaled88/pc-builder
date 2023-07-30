@@ -1,0 +1,103 @@
+{
+	"cpu": [
+		{
+			"id": 1,
+			"image": "/processor/intel-core-i5.jpg",
+			"name": "Intel 13th Gen Core i5 13600K Raptor",
+			"category": "processor",
+			"price": "36000",
+			"status": "In Stock",
+			"rating": "5",
+			"description": {
+				"Model": "Core i5 13600K",
+				"Clock Speed": "3.50 GHz up to 5.10 GHz",
+				"Cache": "24 MB",
+				"Socket": "LGA1700",
+				"CPU Cores": 14,
+				"CPU Threads": 20,
+				"Graphics": "Intel UHD Graphics 770"
+			}
+		},
+		{
+			"id": 2,
+			"image": "/processor/Intel Pentium gold.jpg",
+			"name": "Intel Pentium Gold G6405 Coffee",
+			"category": "processor",
+			"price": "7000",
+			"status": "In Stock",
+			"rating": "4.5"
+		},
+		{
+			"id": 3,
+			"image": "/processor/athlon.jpg",
+			"name": "AMD Athlon 200GE AM4 Socket",
+			"category": "processor",
+			"price": "7800",
+			"status": "In Stock",
+			"rating": "4"
+		},
+		{
+			"id": 4,
+			"image": "/processor/i3-10100.jpg",
+			"name": "Intel 10th Gen Core i3 10100F Processor",
+			"category": "processor",
+			"price": "8200",
+			"status": "In Stock",
+			"rating": "5"
+		},
+		{
+			"id": 5,
+			"image": "/processor/amd-ryzen-3-41000.jpg",
+			"name": "AMD Ryzen 3 4100 Processor",
+			"category": "processor",
+			"price": "10300",
+			"status": "In Stock",
+			"rating": "5"
+		},
+		{
+			"id": 6,
+			"image": "/processor/i3-12100f.jpg",
+			"name": "Intel Core i3-12100F 12th Gen Alder",
+			"category": "processor",
+			"price": "11200",
+			"status": "In Stock",
+			"rating": "5"
+		},
+		{
+			"id": 7,
+			"image": "/processor/amd-ryzen-5-5500.jpg",
+			"name": "AMD Ryzen 5 5500 Processor",
+			"category": "processor",
+			"price": "11500",
+			"status": "In Stock",
+			"rating": "5"
+		},
+		{
+			"id": 8,
+			"image": "/processor/ryzen-5-4600g.jpg",
+			"name": "AMD Ryzen 5 4600G Processor with Radeon Graphics",
+			"category": "processor",
+			"price": "12000",
+			"status": "In Stock",
+			"rating": "4.5"
+		},
+		{
+			"id": 9,
+			"image": "/processor/ryzen-5-pro-4650g.jpg",
+			"name": "AMD Ryzen 5 Pro 4650G Processor with Radeon Graphics",
+			"category": "processor",
+			"price": "12800",
+			"status": "In Stock",
+			"rating": "5"
+		},
+		{
+			"id": 10,
+			"image": "/processor/ryzen-5-5600g.jpg",
+			"name": "AMD Ryzen 5 5600G Processor with Radeon Graphics",
+			"category": "processor",
+			"price": "13200",
+			"status": "In Stock",
+			"rating": "5"
+		}
+	]
+}

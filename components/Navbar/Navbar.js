@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
@@ -26,77 +27,76 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <Link href={'/'}>Home</Link>
             </li>
             <li>
               <a>Categories</a>
-              <ul className="p-2">
+              <ul className="p-2 z-50">
               <li>
-                  <a>CPU / Processor</a>
+                  <Link href={"/cpu"}>CPU / Processor</Link>
                 </li>
                 <li>
-                  <a>Motherboard</a>
+                  <Link href={'/motherboard'}>Motherboard</Link>
                 </li>
                 <li>
-                  <a>RAM</a>
+                 <Link href={'/ram'}>RAM</Link>
                 </li>
                 <li>
-                  <a>Power Supply Unit</a>
+                  <Link href={'/powersupply'}>Power Supply Unit</Link>
                 </li>
                 <li>
-                  <a>Storage device</a>
+                  <Link href={'/storage'}>Storage device</Link>
                 </li>
                 <li>
-                  <a>Monitor</a>
+                  <Link href={'/monitor'}>Monitor</Link>
                 </li>
                 <li>
-                  <a>Others</a>
+                  <Link href={'/others'}>Others</Link>
                 </li>
               </ul>
             </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+           
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Build your PC</a>
+        <a className="btn btn-ghost normal-case text-xl"></a>
+        <Link className="btn btn-ghost normal-case text-xl" href={'/'}>
+          Build your PC
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+          <Link href={'/'}>Home</Link>
           </li>
           <li tabIndex={0}>
             <details>
               <summary>Categories</summary>
-              <ul className="p-2">
+              <ul className="p-2 z-50">
                 <li>
-                  <a>CPU / Processor</a>
+                  <Link href={"/cpu"}>CPU / Processor</Link>
                 </li>
                 <li>
-                  <a>Motherboard</a>
+                  <Link href={'/motherboard'}>Motherboard</Link>
                 </li>
                 <li>
-                  <a>RAM</a>
+                 <Link href={'/ram'}>RAM</Link>
                 </li>
                 <li>
-                  <a>Power Supply Unit</a>
+                  <Link href={'/powersupply'}>Power Supply Unit</Link>
                 </li>
                 <li>
-                  <a>Storage device</a>
+                  <Link href={'/storage'}>Storage device</Link>
                 </li>
                 <li>
-                  <a>Monitor</a>
+                  <Link href={'/monitor'}>Monitor</Link>
                 </li>
                 <li>
-                  <a>Others</a>
+                  <Link href={'/others'}>Others</Link>
                 </li>
               </ul>
             </details>
           </li>
-          <li>
-            <a>Item 3</a>
-          </li>
+         
         </ul>
       </div>
       <div className="navbar-end">
