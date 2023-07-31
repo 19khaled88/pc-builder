@@ -3,11 +3,12 @@ const Processor = ({ cpu }) => {
   const cpuCard = (cpu) => {
     let array = []
     for (let data in cpu) {
-      array.push(
-        <div key={cpu[data].id} className="card bg-base-100 shadow-xl p-3">
+      cpu[data].map((info)=>{
+        array.push(
+          <div key={info.id} className="card bg-base-100 shadow-xl p-3">
           <figure className='pt-5 pl-5 pr-5'>
             <Image 
-            src={cpu[data].image} 
+            src={info.image} 
             width={200} 
             height={200} 
             layout="responsive"
@@ -15,21 +16,22 @@ const Processor = ({ cpu }) => {
           </figure>
           <div className="card-body p-4">
             <h2 className="card-title">
-              <div>{cpu[data].name}</div>
+              <div>{info.name}</div>
             </h2>
             <div className='flex flex-row justify-between'>
-              <p>Category : {cpu[data].category}</p>
-              <p className='text-right'>Rating : {cpu[data].rating}</p>
+              <p>Category : {info.category}</p>
+              <p className='text-right'>Rating : {info.rating}</p>
             </div>
             <div className="card-actions justify-end">
               <div className="badge badge-outline">
-                Price : {cpu[data].price}
+                Price : {info.price}
               </div>
               <div className="badge badge-outline">Products</div>
             </div>
           </div>
         </div>,
-      )
+        )
+      })
     }
     return array
   }
