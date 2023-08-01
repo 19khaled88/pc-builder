@@ -1,5 +1,5 @@
 import RootLayout from '@/components/Layouts/RootLayout'
-import Processor from '@/components/Processor/Processor'
+
 
 const CpuPage = ({ allCpus }) => {
   // const { cpu } = allCpus
@@ -8,7 +8,7 @@ const CpuPage = ({ allCpus }) => {
       <h1 className="text-center text-lg font-bold pt-5">
         All the available processors
       </h1>
-      <Processor cpu={allCpus} />
+      
     </div>
   )
 }
