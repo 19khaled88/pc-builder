@@ -2,6 +2,7 @@ import RootLayout from '@/components/Layouts/RootLayout'
 import Processor from '@/components/Processor/Processor'
 
 const CpuPage = ({ allCpus }) => {
+  // const { cpu } = allCpus
   return (
     <div>
       <h1 className="text-center text-lg font-bold pt-5">
@@ -20,7 +21,16 @@ CpuPage.getLayout = function getLayout(page) {
 
 
 export const getStaticProps = async () => {
-  const res = await fetch('http://127.0.0.1:3004/db')
+
+  if(typeof window === undefined){
+    return{
+      props:{
+        allCpus:[]
+      }
+    }
+  }
+ 
+  const res = await fetch(`${process.env.URL}/db`)
   const data = await res.json()
   return {
     props: {
