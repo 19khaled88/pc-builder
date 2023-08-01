@@ -1,3 +1,4 @@
+
 export const categories = [
   { 'CPU / Processor': '/cpu' },
   { Motherboard: '/motherboard' },
@@ -7,3 +8,10 @@ export const categories = [
   { Monitor: '/monitor' },
   { Others: '/others' },
 ]
+
+// export async function getData(){
+//    const res = await fetch('/db.json')
+//    const data = await res.json()
+//    console.log(data)
+//    return data
+// }
