@@ -99,5 +99,124 @@
 			"status": "In Stock",
 			"rating": "5"
 		}
+	],
+	"motherboard": [
+		{
+			"id": 1,
+			"image": "/motherboard/Gigabyte B550M K AMD AM4 Micro ATX Motherboard.jpg",
+			"name": "Gigabyte B550M K AMD AM4 Micro ATX",
+			"category": "motherboard",
+			"price": "11500",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "B550M K",
+				"Supported CPU": "Ryzen 5000/ 5000 G/ 4000 G and 3000 Series Processors",
+				"Supported RAM": "4x DDR4, Max 128GB 4733(OC)",
+				"Graphics Output": "1x HDMI, 1x DisplayPort",
+				"Features": "GbE LAN with Bandwidth Management"
+			}
+		},
+		{
+			"id": 2,
+			"image": "/motherboard/Asus EX-H310M-V3 8th Gen Micro-ATX Motherboard.jpg",
+			"name": "Asus EX-H310M-V3 8th Gen Micro-ATX Motherboard",
+			"category": "motherboard",
+			"price": "9000",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "EX-H310M-V3",
+				"CPU": "8th Generation Intel Processors",
+				"Chipset": "Intel H310",
+				"Memory-type": "2 x DDR4 DIMM",
+				"Slot": "2 x PCI-E slot"
+			}
+		},
+		{
+			"id": 3,
+			"image": "/motherboard/GIGABYTE GA-J1800M-D3P.jpg",
+			"name": "GIGABYTE GA-J1800M-D3P",
+			"category": "motherboard",
+			"price": "6500",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "GIGABYTE GA-J1800M-D3P",
+				"CPU": "Intel Dual-Core Celeron J1800 SoC (2.41 GHz)",
+
+				"Memory-type": "2 x DDR3 DIMM Dual Memory",
+				"Slot": "1 x PCI Express x16 slot, running at x1"
+			}
+		},
+		{
+			"id": 4,
+			"image": "/motherboard/BIOSTAR H510MHP 10th and 11th Gen Micro ATX.jpeg",
+			"name": "BIOSTAR H510MHP 10th and 11th Gen Micro ATX",
+			"category": "motherboard",
+			"price": "7300",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "H510MHP",
+				"Supported CPU": "10th /11th Generation Intel Core Processor",
+
+				"Memory-type": "2x DIMM, DDR4 3200 up to 64 GB",
+				"Graphics Output": "1 x HDMI, 1 x VGA Port",
+				"Features": "1 x M.2 Slot, Realtek ALC887"
+			}
+		}
+	],
+	"ram": [
+		{
+			"id": 1,
+			"image": "/ram/Transcend JetRam 4GB DDR4 3200MHz.jpg",
+			"name": "Transcend JetRam 4GB DDR4 3200MHz",
+			"category": "ram",
+			"price": "1450",
+			"status": "In Stock",
+			"rating": "3.5",
+			"description": {
+				"MPN": "JM3200HLH-4G",
+				"Model": "JetRam 4GB",
+				"Memory": "4GB DDR4-3200",
+				"Interface": "288 Pin",
+				"CAS Latency": "CL22",
+				"Voltage": "1.2V"
+			}
+		},
+		{
+			"id": 2,
+			"image": "/ram/Netac Basic 4GB DDR4.jpg",
+			"name": "Netac Basic 4GB DDR4 2666MHZ",
+			"category": "ram",
+			"price": "1599",
+			"status": "In Stock",
+			"rating": "3.5",
+			"description": {
+				"MPN": "NTBSD4P26SP-04",
+				"Model": "Basic",
+				"Capacity": "4GB",
+				"Frequency": "DDR4 2666MHz",
+				"Form Factor": "288-Pin UDIMM",
+				"Voltage & Cas Latency": "1.2V/19-19-19-4"
+			}
+		},
+		{
+			"id": 3,
+			"image": "/ram/TwinMOS 4GB DDR4.jpg",
+			"name": "TwinMOS 4GB DDR4",
+			"category": "ram",
+			"price": "1500",
+			"status": "In Stock",
+			"rating": "5",
+			"description": {
+				"Model": "TwinMOS 4GB DDR4 2400MHz",
+				"Frequency": "2400MHz",
+				"Operating voltage": "1.5V",
+				"Pin": "240 pin",
+				"CAS Latency": "15.0/16.0"
+			}
+		}
 	]
 }

@@ -34,8 +34,7 @@ export const getStaticProps = async () => {
     }
   }
  
-  // const res = await fetch(`${process.env.URL}/db`)
-  // const data = await res.json()
+
   const filePath = path.join(process.cwd(),'db.json')
   const jsonData = await fsPromises.readFile(filePath)
   const data = JSON.parse(jsonData)
