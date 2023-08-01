@@ -19,6 +19,7 @@ const Motherboard = ({ display }) => {
           </figure>
           <div className="card-body p-2">
             <h2 className="card-title text-sm text-left">{data.name}</h2>
+            <h4 className={`${data.status === 'out of Stock' ? 'text-red-600 font-bold' : null}`}>Status: {data.status}</h4>
             <div className="flex flex-row justify-between text-sm font-normal gap-2">
               <p className='text-left'>Type : {data.category}</p>
               <p className="text-right">Rating : {data.rating}</p>

@@ -24,7 +24,7 @@
 			"name": "Intel Pentium Gold G6405 Coffee",
 			"category": "processor",
 			"price": "7000",
-			"status": "In Stock",
+			"status": "out of Stock",
 			"rating": "4.5"
 		},
 		{
@@ -51,7 +51,7 @@
 			"name": "AMD Ryzen 3 4100 Processor",
 			"category": "processor",
 			"price": "10300",
-			"status": "In Stock",
+			"status": "out of Stock",
 			"rating": "5"
 		},
 		{
@@ -69,7 +69,7 @@
 			"name": "AMD Ryzen 5 5500 Processor",
 			"category": "processor",
 			"price": "11500",
-			"status": "In Stock",
+			"status": "out of Stock",
 			"rating": "5"
 		},
 		{
@@ -96,13 +96,13 @@
 			"name": "AMD Ryzen 5 5600G Processor with Radeon Graphics",
 			"category": "processor",
 			"price": "13200",
-			"status": "In Stock",
+			"status": "out of Stock",
 			"rating": "5"
 		}
 	],
 	"motherboard": [
 		{
-			"id": 1,
+			"id": 11,
 			"image": "/motherboard/Gigabyte B550M K AMD AM4 Micro ATX Motherboard.jpg",
 			"name": "Gigabyte B550M K AMD AM4 Micro ATX",
 			"category": "motherboard",
@@ -118,12 +118,12 @@
 			}
 		},
 		{
-			"id": 2,
+			"id": 12,
 			"image": "/motherboard/Asus EX-H310M-V3 8th Gen Micro-ATX Motherboard.jpg",
 			"name": "Asus EX-H310M-V3 8th Gen Micro-ATX Motherboard",
 			"category": "motherboard",
 			"price": "9000",
-			"status": "In Stock",
+			"status": "out of Stock",
 			"rating": "4.5",
 			"description": {
 				"Model": "EX-H310M-V3",
@@ -134,7 +134,7 @@
 			}
 		},
 		{
-			"id": 3,
+			"id": 13,
 			"image": "/motherboard/GIGABYTE GA-J1800M-D3P.jpg",
 			"name": "GIGABYTE GA-J1800M-D3P",
 			"category": "motherboard",
@@ -150,12 +150,12 @@
 			}
 		},
 		{
-			"id": 4,
+			"id": 14,
 			"image": "/motherboard/BIOSTAR H510MHP 10th and 11th Gen Micro ATX.jpeg",
 			"name": "BIOSTAR H510MHP 10th and 11th Gen Micro ATX",
 			"category": "motherboard",
 			"price": "7300",
-			"status": "In Stock",
+			"status": "out of Stock",
 			"rating": "4.5",
 			"description": {
 				"Model": "H510MHP",
@@ -169,7 +169,7 @@
 	],
 	"ram": [
 		{
-			"id": 1,
+			"id": 20,
 			"image": "/ram/Transcend JetRam 4GB DDR4 3200MHz.jpg",
 			"name": "Transcend JetRam 4GB DDR4 3200MHz",
 			"category": "ram",
@@ -186,7 +186,7 @@
 			}
 		},
 		{
-			"id": 2,
+			"id": 21,
 			"image": "/ram/Netac Basic 4GB DDR4.jpg",
 			"name": "Netac Basic 4GB DDR4 2666MHZ",
 			"category": "ram",
@@ -203,12 +203,12 @@
 			}
 		},
 		{
-			"id": 3,
+			"id": 22,
 			"image": "/ram/TwinMOS 4GB DDR4.jpg",
 			"name": "TwinMOS 4GB DDR4",
 			"category": "ram",
 			"price": "1500",
-			"status": "In Stock",
+			"status": "out of Stock",
 			"rating": "5",
 			"description": {
 				"Model": "TwinMOS 4GB DDR4 2400MHz",
@@ -218,5 +218,21 @@
 				"CAS Latency": "15.0/16.0"
 			}
 		}
+	],
+	"features": [
+		{
+			"name": "cpu",
+			"image": "/features/cpu.jpg"
+		},
+		{
+			"name": "motherboard",
+			"image": "/features/Motherboard.png"
+		},
+		{ "name": "monitor", "image": "/features/monitor.png" },
+		{ "name": "power suppler", "image": "/features/power_supply.png" },
+		{ "name": "ram", "image": "/features/ram.jpg" },
+		{ "name": "storage", "image": "/features/storage.png" },
+
+		{ "name": "others", "image": "/features/mouse_keyboard.png" }
 	]
 }
