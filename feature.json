@@ -1,0 +1,18 @@
+{
+    "features": [
+		{
+			"name": "cpu",
+			"image": "/features/cpu.jpg"
+		},
+		{
+			"name": "motherboard",
+			"image": "/features/Motherboard.png"
+		},
+		{ "name": "monitor", "image": "/features/monitor.png" },
+		{ "name": "power suppler", "image": "/features/power_supply.png" },
+		{ "name": "ram", "image": "/features/ram.jpg" },
+		{ "name": "storage", "image": "/features/storage.png" },
+
+		{ "name": "others", "image": "/features/mouse_keyboard.png" }
+	]
+}

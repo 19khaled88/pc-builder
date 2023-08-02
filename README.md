@@ -1,3 +1,3 @@
-Live Link: https://pc-builder-three.vercel.app/
+Live Link: https://pc-builder-sigma.vercel.app/
 
 

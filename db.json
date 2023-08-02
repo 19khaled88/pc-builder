@@ -1,4 +1,220 @@
 {
+	"all": [
+		{
+		  "id": 1,
+		  "image": "/processor/intel-core-i5.jpg",
+		  "name": "Intel 13th Gen Core i5 13600K Raptor",
+		  "category": "processor",
+		  "price": "36000",
+		  "status": "In Stock",
+		  "rating": "5",
+		  "description": {
+			"Model": "Core i5 13600K",
+			"Clock Speed": "3.50 GHz up to 5.10 GHz",
+			"Cache": "24 MB",
+			"Socket": "LGA1700",
+			"CPU Cores": 14,
+			"CPU Threads": 20,
+			"Graphics": "Intel UHD Graphics 770"
+		  }
+		},
+		{
+		  "id": 2,
+		  "image": "/processor/Intel Pentium gold.jpg",
+		  "name": "Intel Pentium Gold G6405 Coffee",
+		  "category": "processor",
+		  "price": "7000",
+		  "status": "out of Stock",
+		  "rating": "4.5"
+		},
+		{
+		  "id": 3,
+		  "image": "/processor/athlon.jpg",
+		  "name": "AMD Athlon 200GE AM4 Socket",
+		  "category": "processor",
+		  "price": "7800",
+		  "status": "In Stock",
+		  "rating": "4"
+		},
+		{
+		  "id": 4,
+		  "image": "/processor/i3-10100.jpg",
+		  "name": "Intel 10th Gen Core i3 10100F Processor",
+		  "category": "processor",
+		  "price": "8200",
+		  "status": "In Stock",
+		  "rating": "5"
+		},
+		{
+		  "id": 5,
+		  "image": "/processor/amd-ryzen-3-41000.jpg",
+		  "name": "AMD Ryzen 3 4100 Processor",
+		  "category": "processor",
+		  "price": "10300",
+		  "status": "out of Stock",
+		  "rating": "5"
+		},
+		{
+		  "id": 6,
+		  "image": "/processor/i3-12100f.jpg",
+		  "name": "Intel Core i3-12100F 12th Gen Alder",
+		  "category": "processor",
+		  "price": "11200",
+		  "status": "In Stock",
+		  "rating": "5"
+		},
+		{
+		  "id": 7,
+		  "image": "/processor/amd-ryzen-5-5500.jpg",
+		  "name": "AMD Ryzen 5 5500 Processor",
+		  "category": "processor",
+		  "price": "11500",
+		  "status": "out of Stock",
+		  "rating": "5"
+		},
+		{
+		  "id": 8,
+		  "image": "/processor/ryzen-5-4600g.jpg",
+		  "name": "AMD Ryzen 5 4600G Processor with Radeon Graphics",
+		  "category": "processor",
+		  "price": "12000",
+		  "status": "In Stock",
+		  "rating": "4.5"
+		},
+		{
+		  "id": 9,
+		  "image": "/processor/ryzen-5-pro-4650g.jpg",
+		  "name": "AMD Ryzen 5 Pro 4650G Processor with Radeon Graphics",
+		  "category": "processor",
+		  "price": "12800",
+		  "status": "In Stock",
+		  "rating": "5"
+		},
+		{
+		  "id": 10,
+		  "image": "/processor/ryzen-5-5600g.jpg",
+		  "name": "AMD Ryzen 5 5600G Processor with Radeon Graphics",
+		  "category": "processor",
+		  "price": "13200",
+		  "status": "out of Stock",
+		  "rating": "5"
+		},
+		{
+		  "id": 11,
+		  "image": "/motherboard/Gigabyte B550M K AMD AM4 Micro ATX Motherboard.jpg",
+		  "name": "Gigabyte B550M K AMD AM4 Micro ATX",
+		  "category": "motherboard",
+		  "price": "11500",
+		  "status": "In Stock",
+		  "rating": "4.5",
+		  "description": {
+			"Model": "B550M K",
+			"Supported CPU": "Ryzen 5000/ 5000 G/ 4000 G and 3000 Series Processors",
+			"Supported RAM": "4x DDR4, Max 128GB 4733(OC)",
+			"Graphics Output": "1x HDMI, 1x DisplayPort",
+			"Features": "GbE LAN with Bandwidth Management"
+		  }
+		},
+		{
+		  "id": 12,
+		  "image": "/motherboard/Asus EX-H310M-V3 8th Gen Micro-ATX Motherboard.jpg",
+		  "name": "Asus EX-H310M-V3 8th Gen Micro-ATX Motherboard",
+		  "category": "motherboard",
+		  "price": "9000",
+		  "status": "out of Stock",
+		  "rating": "4.5",
+		  "description": {
+			"Model": "EX-H310M-V3",
+			"CPU": "8th Generation Intel Processors",
+			"Chipset": "Intel H310",
+			"Memory-type": "2 x DDR4 DIMM",
+			"Slot": "2 x PCI-E slot"
+		  }
+		},
+		{
+		  "id": 13,
+		  "image": "/motherboard/GIGABYTE GA-J1800M-D3P.jpg",
+		  "name": "GIGABYTE GA-J1800M-D3P",
+		  "category": "motherboard",
+		  "price": "6500",
+		  "status": "In Stock",
+		  "rating": "4.5",
+		  "description": {
+			"Model": "GIGABYTE GA-J1800M-D3P",
+			"CPU": "Intel Dual-Core Celeron J1800 SoC (2.41 GHz)",
+	
+			"Memory-type": "2 x DDR3 DIMM Dual Memory",
+			"Slot": "1 x PCI Express x16 slot, running at x1"
+		  }
+		},
+		{
+		  "id": 14,
+		  "image": "/motherboard/BIOSTAR H510MHP 10th and 11th Gen Micro ATX.jpeg",
+		  "name": "BIOSTAR H510MHP 10th and 11th Gen Micro ATX",
+		  "category": "motherboard",
+		  "price": "7300",
+		  "status": "out of Stock",
+		  "rating": "4.5",
+		  "description": {
+			"Model": "H510MHP",
+			"Supported CPU": "10th /11th Generation Intel Core Processor",
+	
+			"Memory-type": "2x DIMM, DDR4 3200 up to 64 GB",
+			"Graphics Output": "1 x HDMI, 1 x VGA Port",
+			"Features": "1 x M.2 Slot, Realtek ALC887"
+		  }
+		},
+		{
+		  "id": 20,
+		  "image": "/ram/Transcend JetRam 4GB DDR4 3200MHz.jpg",
+		  "name": "Transcend JetRam 4GB DDR4 3200MHz",
+		  "category": "ram",
+		  "price": "1450",
+		  "status": "In Stock",
+		  "rating": "3.5",
+		  "description": {
+			"MPN": "JM3200HLH-4G",
+			"Model": "JetRam 4GB",
+			"Memory": "4GB DDR4-3200",
+			"Interface": "288 Pin",
+			"CAS Latency": "CL22",
+			"Voltage": "1.2V"
+		  }
+		},
+		{
+		  "id": 21,
+		  "image": "/ram/Netac Basic 4GB DDR4.jpg",
+		  "name": "Netac Basic 4GB DDR4 2666MHZ",
+		  "category": "ram",
+		  "price": "1599",
+		  "status": "In Stock",
+		  "rating": "3.5",
+		  "description": {
+			"MPN": "NTBSD4P26SP-04",
+			"Model": "Basic",
+			"Capacity": "4GB",
+			"Frequency": "DDR4 2666MHz",
+			"Form Factor": "288-Pin UDIMM",
+			"Voltage & Cas Latency": "1.2V/19-19-19-4"
+		  }
+		},
+		{
+		  "id": 22,
+		  "image": "/ram/TwinMOS 4GB DDR4.jpg",
+		  "name": "TwinMOS 4GB DDR4",
+		  "category": "ram",
+		  "price": "1500",
+		  "status": "out of Stock",
+		  "rating": "5",
+		  "description": {
+			"Model": "TwinMOS 4GB DDR4 2400MHz",
+			"Frequency": "2400MHz",
+			"Operating voltage": "1.5V",
+			"Pin": "240 pin",
+			"CAS Latency": "15.0/16.0"
+		  }
+		}
+	  ],
 	"cpu": [
 		{
 			"id": 1,
@@ -24,7 +240,7 @@
 			"name": "Intel Pentium Gold G6405 Coffee",
 			"category": "processor",
 			"price": "7000",
-			"status": "In Stock",
+			"status": "out of Stock",
 			"rating": "4.5"
 		},
 		{
@@ -51,7 +267,7 @@
 			"name": "AMD Ryzen 3 4100 Processor",
 			"category": "processor",
 			"price": "10300",
-			"status": "In Stock",
+			"status": "out of Stock",
 			"rating": "5"
 		},
 		{
@@ -69,7 +285,7 @@
 			"name": "AMD Ryzen 5 5500 Processor",
 			"category": "processor",
 			"price": "11500",
-			"status": "In Stock",
+			"status": "out of Stock",
 			"rating": "5"
 		},
 		{
@@ -96,8 +312,146 @@
 			"name": "AMD Ryzen 5 5600G Processor with Radeon Graphics",
 			"category": "processor",
 			"price": "13200",
-			"status": "In Stock",
+			"status": "out of Stock",
 			"rating": "5"
 		}
+	],
+	
+	"motherboard": [
+		{
+			"id": 11,
+			"image": "/motherboard/Gigabyte B550M K AMD AM4 Micro ATX Motherboard.jpg",
+			"name": "Gigabyte B550M K AMD AM4 Micro ATX",
+			"category": "motherboard",
+			"price": "11500",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "B550M K",
+				"Supported CPU": "Ryzen 5000/ 5000 G/ 4000 G and 3000 Series Processors",
+				"Supported RAM": "4x DDR4, Max 128GB 4733(OC)",
+				"Graphics Output": "1x HDMI, 1x DisplayPort",
+				"Features": "GbE LAN with Bandwidth Management"
+			}
+		},
+		{
+			"id": 12,
+			"image": "/motherboard/Asus EX-H310M-V3 8th Gen Micro-ATX Motherboard.jpg",
+			"name": "Asus EX-H310M-V3 8th Gen Micro-ATX Motherboard",
+			"category": "motherboard",
+			"price": "9000",
+			"status": "out of Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "EX-H310M-V3",
+				"CPU": "8th Generation Intel Processors",
+				"Chipset": "Intel H310",
+				"Memory-type": "2 x DDR4 DIMM",
+				"Slot": "2 x PCI-E slot"
+			}
+		},
+		{
+			"id": 13,
+			"image": "/motherboard/GIGABYTE GA-J1800M-D3P.jpg",
+			"name": "GIGABYTE GA-J1800M-D3P",
+			"category": "motherboard",
+			"price": "6500",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "GIGABYTE GA-J1800M-D3P",
+				"CPU": "Intel Dual-Core Celeron J1800 SoC (2.41 GHz)",
+
+				"Memory-type": "2 x DDR3 DIMM Dual Memory",
+				"Slot": "1 x PCI Express x16 slot, running at x1"
+			}
+		},
+		{
+			"id": 14,
+			"image": "/motherboard/BIOSTAR H510MHP 10th and 11th Gen Micro ATX.jpeg",
+			"name": "BIOSTAR H510MHP 10th and 11th Gen Micro ATX",
+			"category": "motherboard",
+			"price": "7300",
+			"status": "out of Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "H510MHP",
+				"Supported CPU": "10th /11th Generation Intel Core Processor",
+
+				"Memory-type": "2x DIMM, DDR4 3200 up to 64 GB",
+				"Graphics Output": "1 x HDMI, 1 x VGA Port",
+				"Features": "1 x M.2 Slot, Realtek ALC887"
+			}
+		}
+	],
+
+	"ram": [
+		{
+			"id": 20,
+			"image": "/ram/Transcend JetRam 4GB DDR4 3200MHz.jpg",
+			"name": "Transcend JetRam 4GB DDR4 3200MHz",
+			"category": "ram",
+			"price": "1450",
+			"status": "In Stock",
+			"rating": "3.5",
+			"description": {
+				"MPN": "JM3200HLH-4G",
+				"Model": "JetRam 4GB",
+				"Memory": "4GB DDR4-3200",
+				"Interface": "288 Pin",
+				"CAS Latency": "CL22",
+				"Voltage": "1.2V"
+			}
+		},
+		{
+			"id": 21,
+			"image": "/ram/Netac Basic 4GB DDR4.jpg",
+			"name": "Netac Basic 4GB DDR4 2666MHZ",
+			"category": "ram",
+			"price": "1599",
+			"status": "In Stock",
+			"rating": "3.5",
+			"description": {
+				"MPN": "NTBSD4P26SP-04",
+				"Model": "Basic",
+				"Capacity": "4GB",
+				"Frequency": "DDR4 2666MHz",
+				"Form Factor": "288-Pin UDIMM",
+				"Voltage & Cas Latency": "1.2V/19-19-19-4"
+			}
+		},
+		{
+			"id": 22,
+			"image": "/ram/TwinMOS 4GB DDR4.jpg",
+			"name": "TwinMOS 4GB DDR4",
+			"category": "ram",
+			"price": "1500",
+			"status": "out of Stock",
+			"rating": "5",
+			"description": {
+				"Model": "TwinMOS 4GB DDR4 2400MHz",
+				"Frequency": "2400MHz",
+				"Operating voltage": "1.5V",
+				"Pin": "240 pin",
+				"CAS Latency": "15.0/16.0"
+			}
+		}
+	],
+
+	"features": [
+		{
+			"name": "cpu",
+			"image": "/features/cpu.jpg"
+		},
+		{
+			"name": "motherboard",
+			"image": "/features/Motherboard.png"
+		},
+		{ "name": "monitor", "image": "/features/monitor.png" },
+		{ "name": "power suppler", "image": "/features/power_supply.png" },
+		{ "name": "ram", "image": "/features/ram.jpg" },
+		{ "name": "storage", "image": "/features/storage.png" },
+
+		{ "name": "others", "image": "/features/mouse_keyboard.png" }
 	]
 }
