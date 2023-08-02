@@ -1,220 +1,494 @@
 {
 	"all": [
 		{
-		  "id": 1,
-		  "image": "/processor/intel-core-i5.jpg",
-		  "name": "Intel 13th Gen Core i5 13600K Raptor",
-		  "category": "processor",
-		  "price": "36000",
-		  "status": "In Stock",
-		  "rating": "5",
-		  "description": {
-			"Model": "Core i5 13600K",
-			"Clock Speed": "3.50 GHz up to 5.10 GHz",
-			"Cache": "24 MB",
-			"Socket": "LGA1700",
-			"CPU Cores": 14,
-			"CPU Threads": 20,
-			"Graphics": "Intel UHD Graphics 770"
-		  }
+			"id": 1,
+			"image": "/processor/intel-core-i5.jpg",
+			"name": "Intel 13th Gen Core i5 13600K Raptor",
+			"category": "processor",
+			"price": "36000",
+			"status": "In Stock",
+			"rating": "5",
+			"description": {
+				"Model": "Core i5 13600K",
+				"Clock Speed": "3.50 GHz up to 5.10 GHz",
+				"Cache": "24 MB",
+				"Socket": "LGA1700",
+				"CPU Cores": 14,
+				"CPU Threads": 20,
+				"Graphics": "Intel UHD Graphics 770"
+			}
 		},
 		{
-		  "id": 2,
-		  "image": "/processor/Intel Pentium gold.jpg",
-		  "name": "Intel Pentium Gold G6405 Coffee",
-		  "category": "processor",
-		  "price": "7000",
-		  "status": "out of Stock",
-		  "rating": "4.5"
+			"id": 2,
+			"image": "/processor/Intel Pentium gold.jpg",
+			"name": "Intel Pentium Gold G6405 Coffee",
+			"category": "processor",
+			"price": "7000",
+			"status": "out of Stock",
+			"rating": "4.5"
 		},
 		{
-		  "id": 3,
-		  "image": "/processor/athlon.jpg",
-		  "name": "AMD Athlon 200GE AM4 Socket",
-		  "category": "processor",
-		  "price": "7800",
-		  "status": "In Stock",
-		  "rating": "4"
+			"id": 3,
+			"image": "/processor/athlon.jpg",
+			"name": "AMD Athlon 200GE AM4 Socket",
+			"category": "processor",
+			"price": "7800",
+			"status": "In Stock",
+			"rating": "4"
 		},
 		{
-		  "id": 4,
-		  "image": "/processor/i3-10100.jpg",
-		  "name": "Intel 10th Gen Core i3 10100F Processor",
-		  "category": "processor",
-		  "price": "8200",
-		  "status": "In Stock",
-		  "rating": "5"
+			"id": 4,
+			"image": "/processor/i3-10100.jpg",
+			"name": "Intel 10th Gen Core i3 10100F Processor",
+			"category": "processor",
+			"price": "8200",
+			"status": "In Stock",
+			"rating": "5"
 		},
 		{
-		  "id": 5,
-		  "image": "/processor/amd-ryzen-3-41000.jpg",
-		  "name": "AMD Ryzen 3 4100 Processor",
-		  "category": "processor",
-		  "price": "10300",
-		  "status": "out of Stock",
-		  "rating": "5"
+			"id": 5,
+			"image": "/processor/amd-ryzen-3-41000.jpg",
+			"name": "AMD Ryzen 3 4100 Processor",
+			"category": "processor",
+			"price": "10300",
+			"status": "out of Stock",
+			"rating": "5"
 		},
 		{
-		  "id": 6,
-		  "image": "/processor/i3-12100f.jpg",
-		  "name": "Intel Core i3-12100F 12th Gen Alder",
-		  "category": "processor",
-		  "price": "11200",
-		  "status": "In Stock",
-		  "rating": "5"
+			"id": 6,
+			"image": "/processor/i3-12100f.jpg",
+			"name": "Intel Core i3-12100F 12th Gen Alder",
+			"category": "processor",
+			"price": "11200",
+			"status": "In Stock",
+			"rating": "5"
 		},
 		{
-		  "id": 7,
-		  "image": "/processor/amd-ryzen-5-5500.jpg",
-		  "name": "AMD Ryzen 5 5500 Processor",
-		  "category": "processor",
-		  "price": "11500",
-		  "status": "out of Stock",
-		  "rating": "5"
+			"id": 7,
+			"image": "/processor/amd-ryzen-5-5500.jpg",
+			"name": "AMD Ryzen 5 5500 Processor",
+			"category": "processor",
+			"price": "11500",
+			"status": "out of Stock",
+			"rating": "5"
 		},
 		{
-		  "id": 8,
-		  "image": "/processor/ryzen-5-4600g.jpg",
-		  "name": "AMD Ryzen 5 4600G Processor with Radeon Graphics",
-		  "category": "processor",
-		  "price": "12000",
-		  "status": "In Stock",
-		  "rating": "4.5"
+			"id": 8,
+			"image": "/processor/ryzen-5-4600g.jpg",
+			"name": "AMD Ryzen 5 4600G Processor with Radeon Graphics",
+			"category": "processor",
+			"price": "12000",
+			"status": "In Stock",
+			"rating": "4.5"
 		},
 		{
-		  "id": 9,
-		  "image": "/processor/ryzen-5-pro-4650g.jpg",
-		  "name": "AMD Ryzen 5 Pro 4650G Processor with Radeon Graphics",
-		  "category": "processor",
-		  "price": "12800",
-		  "status": "In Stock",
-		  "rating": "5"
+			"id": 9,
+			"image": "/processor/ryzen-5-pro-4650g.jpg",
+			"name": "AMD Ryzen 5 Pro 4650G Processor with Radeon Graphics",
+			"category": "processor",
+			"price": "12800",
+			"status": "In Stock",
+			"rating": "5"
 		},
 		{
-		  "id": 10,
-		  "image": "/processor/ryzen-5-5600g.jpg",
-		  "name": "AMD Ryzen 5 5600G Processor with Radeon Graphics",
-		  "category": "processor",
-		  "price": "13200",
-		  "status": "out of Stock",
-		  "rating": "5"
+			"id": 10,
+			"image": "/processor/ryzen-5-5600g.jpg",
+			"name": "AMD Ryzen 5 5600G Processor with Radeon Graphics",
+			"category": "processor",
+			"price": "13200",
+			"status": "out of Stock",
+			"rating": "5"
 		},
 		{
-		  "id": 11,
-		  "image": "/motherboard/Gigabyte B550M K AMD AM4 Micro ATX Motherboard.jpg",
-		  "name": "Gigabyte B550M K AMD AM4 Micro ATX",
-		  "category": "motherboard",
-		  "price": "11500",
-		  "status": "In Stock",
-		  "rating": "4.5",
-		  "description": {
-			"Model": "B550M K",
-			"Supported CPU": "Ryzen 5000/ 5000 G/ 4000 G and 3000 Series Processors",
-			"Supported RAM": "4x DDR4, Max 128GB 4733(OC)",
-			"Graphics Output": "1x HDMI, 1x DisplayPort",
-			"Features": "GbE LAN with Bandwidth Management"
-		  }
+			"id": 11,
+			"image": "/motherboard/Gigabyte B550M K AMD AM4 Micro ATX Motherboard.jpg",
+			"name": "Gigabyte B550M K AMD AM4 Micro ATX",
+			"category": "motherboard",
+			"price": "11500",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "B550M K",
+				"Supported CPU": "Ryzen 5000/ 5000 G/ 4000 G and 3000 Series Processors",
+				"Supported RAM": "4x DDR4, Max 128GB 4733(OC)",
+				"Graphics Output": "1x HDMI, 1x DisplayPort",
+				"Features": "GbE LAN with Bandwidth Management"
+			}
 		},
 		{
-		  "id": 12,
-		  "image": "/motherboard/Asus EX-H310M-V3 8th Gen Micro-ATX Motherboard.jpg",
-		  "name": "Asus EX-H310M-V3 8th Gen Micro-ATX Motherboard",
-		  "category": "motherboard",
-		  "price": "9000",
-		  "status": "out of Stock",
-		  "rating": "4.5",
-		  "description": {
-			"Model": "EX-H310M-V3",
-			"CPU": "8th Generation Intel Processors",
-			"Chipset": "Intel H310",
-			"Memory-type": "2 x DDR4 DIMM",
-			"Slot": "2 x PCI-E slot"
-		  }
+			"id": 12,
+			"image": "/motherboard/Asus EX-H310M-V3 8th Gen Micro-ATX Motherboard.jpg",
+			"name": "Asus EX-H310M-V3 8th Gen Micro-ATX Motherboard",
+			"category": "motherboard",
+			"price": "9000",
+			"status": "out of Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "EX-H310M-V3",
+				"CPU": "8th Generation Intel Processors",
+				"Chipset": "Intel H310",
+				"Memory-type": "2 x DDR4 DIMM",
+				"Slot": "2 x PCI-E slot"
+			}
 		},
 		{
-		  "id": 13,
-		  "image": "/motherboard/GIGABYTE GA-J1800M-D3P.jpg",
-		  "name": "GIGABYTE GA-J1800M-D3P",
-		  "category": "motherboard",
-		  "price": "6500",
-		  "status": "In Stock",
-		  "rating": "4.5",
-		  "description": {
-			"Model": "GIGABYTE GA-J1800M-D3P",
-			"CPU": "Intel Dual-Core Celeron J1800 SoC (2.41 GHz)",
-	
-			"Memory-type": "2 x DDR3 DIMM Dual Memory",
-			"Slot": "1 x PCI Express x16 slot, running at x1"
-		  }
+			"id": 13,
+			"image": "/motherboard/GIGABYTE GA-J1800M-D3P.jpg",
+			"name": "GIGABYTE GA-J1800M-D3P",
+			"category": "motherboard",
+			"price": "6500",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "GIGABYTE GA-J1800M-D3P",
+				"CPU": "Intel Dual-Core Celeron J1800 SoC (2.41 GHz)",
+
+				"Memory-type": "2 x DDR3 DIMM Dual Memory",
+				"Slot": "1 x PCI Express x16 slot, running at x1"
+			}
 		},
 		{
-		  "id": 14,
-		  "image": "/motherboard/BIOSTAR H510MHP 10th and 11th Gen Micro ATX.jpeg",
-		  "name": "BIOSTAR H510MHP 10th and 11th Gen Micro ATX",
-		  "category": "motherboard",
-		  "price": "7300",
-		  "status": "out of Stock",
-		  "rating": "4.5",
-		  "description": {
-			"Model": "H510MHP",
-			"Supported CPU": "10th /11th Generation Intel Core Processor",
-	
-			"Memory-type": "2x DIMM, DDR4 3200 up to 64 GB",
-			"Graphics Output": "1 x HDMI, 1 x VGA Port",
-			"Features": "1 x M.2 Slot, Realtek ALC887"
-		  }
+			"id": 14,
+			"image": "/motherboard/BIOSTAR H510MHP 10th and 11th Gen Micro ATX.jpeg",
+			"name": "BIOSTAR H510MHP 10th and 11th Gen Micro ATX",
+			"category": "motherboard",
+			"price": "7300",
+			"status": "out of Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "H510MHP",
+				"Supported CPU": "10th /11th Generation Intel Core Processor",
+
+				"Memory-type": "2x DIMM, DDR4 3200 up to 64 GB",
+				"Graphics Output": "1 x HDMI, 1 x VGA Port",
+				"Features": "1 x M.2 Slot, Realtek ALC887"
+			}
 		},
 		{
-		  "id": 20,
-		  "image": "/ram/Transcend JetRam 4GB DDR4 3200MHz.jpg",
-		  "name": "Transcend JetRam 4GB DDR4 3200MHz",
-		  "category": "ram",
-		  "price": "1450",
-		  "status": "In Stock",
-		  "rating": "3.5",
-		  "description": {
-			"MPN": "JM3200HLH-4G",
-			"Model": "JetRam 4GB",
-			"Memory": "4GB DDR4-3200",
-			"Interface": "288 Pin",
-			"CAS Latency": "CL22",
-			"Voltage": "1.2V"
-		  }
+			"id": 15,
+			"image": "/motherboard/MSI A520M-A Pro AM4 AMD Micro-ATX.jpg",
+			"name": "MSI A520M-A Pro AM4 AMD Micro-ATX",
+			"category": "motherboard",
+			"price": "8500",
+			"status": "out of Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "MSI A520M-A Pro",
+				"Supported CPU": "AMD Ryzen 5000/4000G Series & AMD Ryzen 3rd Generation Processors",
+
+				"Memory-type": "2x DIMM, DDR4 3200 up to 64 GB",
+				"Graphics Output": "Core Boost, Turbo M.2 & Audio Boost",
+				"Features": "Supports up to 4600(OC) MHz RAM"
+			}
 		},
 		{
-		  "id": 21,
-		  "image": "/ram/Netac Basic 4GB DDR4.jpg",
-		  "name": "Netac Basic 4GB DDR4 2666MHZ",
-		  "category": "ram",
-		  "price": "1599",
-		  "status": "In Stock",
-		  "rating": "3.5",
-		  "description": {
-			"MPN": "NTBSD4P26SP-04",
-			"Model": "Basic",
-			"Capacity": "4GB",
-			"Frequency": "DDR4 2666MHz",
-			"Form Factor": "288-Pin UDIMM",
-			"Voltage & Cas Latency": "1.2V/19-19-19-4"
-		  }
+			"id": 16,
+			"image": "/motherboard/MSI PRO H410M-B 10th Gen Micro-ATX.jpg",
+			"name": "MSI PRO H410M-B 10th Gen Micro-ATX",
+			"category": "motherboard",
+			"price": "8500",
+			"status": "out of Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "PRO H410M-B",
+				"Supported CPU": "Supports 10th Gen Intel Core, Pentium Gold & Celeron processors for LGA 1200 socket",
+
+				"Memory-type": "Supports DDR4 Memory, up to 2933(Max) MHz",
+				"Graphics Output": "Core Boost, DDR4 Boost, Turbo M.2",
+				"Features": "4x SATA 6Gb/s ports, 1x M.2 slot"
+			}
 		},
 		{
-		  "id": 22,
-		  "image": "/ram/TwinMOS 4GB DDR4.jpg",
-		  "name": "TwinMOS 4GB DDR4",
-		  "category": "ram",
-		  "price": "1500",
-		  "status": "out of Stock",
-		  "rating": "5",
-		  "description": {
-			"Model": "TwinMOS 4GB DDR4 2400MHz",
-			"Frequency": "2400MHz",
-			"Operating voltage": "1.5V",
-			"Pin": "240 pin",
-			"CAS Latency": "15.0/16.0"
-		  }
+			"id": 20,
+			"image": "/ram/Transcend JetRam 4GB DDR4 3200MHz.jpg",
+			"name": "Transcend JetRam 4GB DDR4 3200MHz",
+			"category": "ram",
+			"price": "1450",
+			"status": "In Stock",
+			"rating": "3.5",
+			"description": {
+				"MPN": "JM3200HLH-4G",
+				"Model": "JetRam 4GB",
+				"Memory": "4GB DDR4-3200",
+				"Interface": "288 Pin",
+				"CAS Latency": "CL22",
+				"Voltage": "1.2V"
+			}
+		},
+		{
+			"id": 21,
+			"image": "/ram/Netac Basic 4GB DDR4.jpg",
+			"name": "Netac Basic 4GB DDR4 2666MHZ",
+			"category": "ram",
+			"price": "1599",
+			"status": "In Stock",
+			"rating": "3.5",
+			"description": {
+				"MPN": "NTBSD4P26SP-04",
+				"Model": "Basic",
+				"Capacity": "4GB",
+				"Frequency": "DDR4 2666MHz",
+				"Form Factor": "288-Pin UDIMM",
+				"Voltage & Cas Latency": "1.2V/19-19-19-4"
+			}
+		},
+		{
+			"id": 22,
+			"image": "/ram/TwinMOS 4GB DDR4.jpg",
+			"name": "TwinMOS 4GB DDR4",
+			"category": "ram",
+			"price": "1500",
+			"status": "out of Stock",
+			"rating": "5",
+			"description": {
+				"Model": "TwinMOS 4GB DDR4 2400MHz",
+				"Frequency": "2400MHz",
+				"Operating voltage": "1.5V",
+				"Pin": "240 pin",
+				"CAS Latency": "15.0/16.0"
+			}
+		},
+		{
+			"id": 23,
+			"image": "/ram/Apacer Panther Golden 4GB DDR4.jpg",
+			"name": "Apacer Panther Golden 4GB DDR4",
+			"category": "ram",
+			"price": "1750",
+			"status": "out of Stock",
+			"rating": "5",
+			"description": {
+				"Model": "Panther Golden 4GB DDR4 2666MHZ",
+				"Frequency": "2666MHZ , PIN: 288-pin",
+				"Memory Architecture": "x8 FBGA DRAM chip",
+				"Capacity": "4GB"
+			}
+		},
+		{
+			"id": 24,
+			"image": "/ram/G.Skill Ripjaws V 4GB DDR4 2666MHz.jpg",
+			"name": "G.Skill Ripjaws V 4GB DDR4 2666MHz",
+			"category": "ram",
+			"price": "1750",
+			"status": "out of Stock",
+			"rating": "5",
+			"description": {
+				"MPN": "F4-2666C15D-8GVR",
+				"Model": " Ripjaws V",
+				"RAM": "4GB 2666MHz DDR4 Capacity",
+				"Tested Latency": "15-15-15-35",
+				"Tested Voltage": "1.20V",
+				"Feature": "Unbuffered, Non-ECC"
+			}
+		},
+		{
+			"id": 25,
+			"image": "/ram/PNY XLR8 8GB DDR4 3200MHz.jpg",
+			"name": "PNY XLR8 8GB DDR4 3200MHz",
+			"category": "ram",
+			"price": "2150",
+			"status": "In Stock",
+			"rating": "5",
+			"description": {
+				"Model": "PNY XLR8",
+				"Frequency": "3200MHz (PC4-25600)",
+				"Memory Architecture": "x8 FBGA DRAM chip",
+				"Capacity": "4GB",
+				"support": "XMP 2.0 support"
+			}
+		},
+		{
+			"id": 30,
+			"image": "/power/FSP Hydro K PRO 750W 80 Plus Bronze.jpg",
+			"name": "FSP Hydro K PRO 750W 80 Plus Bronze",
+			"category": "power supply",
+			"price": "6500",
+			"status": "In Stock",
+			"rating": "3.5",
+			"description": {
+				"Model": " Hydro K PRO 750W",
+				"Rated Output Power": "750W",
+				"Fan Type": "HYB Fan, 120mm",
+				"Form Factor": "ATX"
+			}
+		},
+		{
+			"id": 31,
+			"image": "/power/FSP Hydro K PRO 600W 80 Plus Bronze.jpg",
+			"name": "FSP Hydro K PRO 600W 80 Plus Bronze",
+			"category": "power supply",
+			"price": "5500",
+			"status": "In Stock",
+			"rating": "3",
+			"description": {
+				"Model": " Hydro K PRO 600W",
+				"Rated Output Power": "600W",
+				"Fan Type": "HYB Fan, 120mm",
+				"Form Factor": "ATX"
+			}
+		},
+		{
+			"id": 32,
+			"image": "/power/FSP Hydro K PRO 500W 80 Plus Bronze.jpg",
+			"name": "FSP Hydro K PRO 500W 80 Plus Bronze",
+			"category": "power supply",
+			"price": "4300",
+			"status": "In Stock",
+			"rating": "3",
+			"description": {
+				"Model": " Hydro K PRO 500W",
+				"Rated Output Power": "500W",
+				"Fan Type": "HYB Fan, 120mm",
+				"Form Factor": "ATX"
+			}
+		},
+		{
+			"id": 33,
+			"image": "/power/Gigabyte P450B 450W 80 Plus Bronze.jpg",
+			"name": "Gigabyte P450B 450W 80 Plus Bronze",
+			"category": "power supply",
+			"price": "3600",
+			"status": "In Stock",
+			"rating": "3",
+			"description": {
+				"MPN": "GP-P450B/PSU 450W/80+B",
+				"Model": "Gigabyte P450B",
+				"Feature": "OVP/OPP/SCP/UVP/OCP/OTP protection",
+				"Capacity": "80 PLUS Bronze certified"
+			}
+		},
+		{
+			"id": 34,
+			"image": "/power/Antec Atom 550W 550 Watt Power Supply.jpg",
+			"name": "Antec Atom 550W 550 Watt Power Supply",
+			"category": "power supply",
+			"price": "3650",
+			"status": "In Stock",
+			"rating": "3",
+			"description": {
+				"Warranty": "2 Year Warranty",
+				"Model": "Antec Atom 550W",
+				"Voltage": "230VAC 5A 47-63Hz",
+				"Capacity": "550W Continuous Power"
+			}
+		},
+		{
+			"id": 35,
+			"image": "/power/Antec CUPRUM STRIKE CSK 450W 80 Plus Bronze.jpg",
+			"name": "Antec CUPRUM STRIKE CSK 450W 80 Plus Bronze ",
+			"category": "power supply",
+			"price": "4300",
+			"status": "In Stock",
+			"rating": "4",
+			"description": {
+				"MPN": "X5000A251HC-20",
+				"Model": "CUPRUM STRIKE CSK 450W",
+				"Capacity": "450W Continuous Power",
+				"Certified": "80 PLUS Bronze certified",
+				"Fan": "120 mm Silent Fan",
+				"Type": "ATX 12V 2.31"
+			}
+		},
+		{
+			"id": 40,
+			"image": "/storage/Seagate Internal 1TB SATA Barracuda HDD.jpg",
+			"name": "Seagate Internal 1TB SATA Barracuda HDD",
+			"category": "Storage",
+			"price": "4200",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"MPN": "ST1000DM010",
+				"Model": "BarraCuda",
+				"Capacity": "1TB",
+				"Interface": "SATA 6Gb/s",
+				"Latency Average": "6Gb/s",
+				"Rotational Speed": "7200 RPM"
+			}
+		},
+		{
+			"id": 41,
+			"image": "/storage/Western Digital 1TB Blue Desktop HDD.jpg",
+			"name": "Western Digital 1TB Blue Desktop HDD",
+			"category": "Storage",
+			"price": "4300",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "WD10EZEX",
+				"Capacity": "1TB",
+				"Interface": "SATA 6Gb/s",
+				"Latency Average": "8.9ms",
+				"Rotational Speed": "RPM- 7200"
+			}
+		},
+		{
+			"id": 42,
+			"image": "/storage/Toshiba S300 1TB 5700rpm  Surveillance.jpg",
+			"name": "Toshiba S300 1TB 5700rpm  Surveillance",
+			"category": "Storage",
+			"price": "4300",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"MPN": "HDWV110UZSVA",
+				"Model": "Toshiba S300",
+				"Buffer size": " 64 MB",
+				"Form factor": "3,5-inch",
+				"Interface": "6.0 Gbit/s",
+				"Cameras supported": "up to 64"
+			}
+		},
+		{
+			"id": 43,
+			"image": "/storage/Toshiba S300 1TB 5700rpm  Surveillance.jpg",
+			"name": "Toshiba S300 1TB 5700rpm  Surveillance",
+			"category": "Storage",
+			"price": "4300",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"MPN": "HDWV110UZSVA",
+				"Model": "Toshiba S300",
+				"Buffer size": " 64 MB",
+				"Form factor": "3,5-inch",
+				"Interface": "6.0 Gbit/s",
+				"Cameras supported": "up to 64"
+			}
+		},
+		{
+			"id": 44,
+			"image": "/storage/Seagate Barracuda 2TB 2.5 Inch.jpg",
+			"name": "Seagate Barracuda 2TB 2.5 Inch",
+			"category": "Storage",
+			"price": "8400",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"MPN": "ST2000LM015",
+				"Model": "Barracuda",
+				"Capacity": "2TB",
+				"Form factor": " 2.5 Inch",
+				"Interface (Built-in)": "SATA 6.0Gb/s",
+				"Average Seek Time": "13ms"
+			}
+		},
+		{
+			"id": 45,
+			"image": "/storage/Toshiba S300 4TB 3.5 Inch Surveillance HDD.jpg",
+			"name": "Toshiba S300 4TB 3.5 Inch Surveillance HDD",
+			"category": "Storage",
+			"price": "8500",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "S300",
+				"Buffer": "128 MB buffer",
+				"Interface": "Serial ATA",
+				"Rotational Speed": "5400 RPM",
+				"Feature": "Toshiba Dynamic Cache Technology"
+			}
 		}
-	  ],
+	],
 	"cpu": [
 		{
 			"id": 1,
@@ -316,7 +590,7 @@
 			"rating": "5"
 		}
 	],
-	
+
 	"motherboard": [
 		{
 			"id": 11,
@@ -382,6 +656,40 @@
 				"Graphics Output": "1 x HDMI, 1 x VGA Port",
 				"Features": "1 x M.2 Slot, Realtek ALC887"
 			}
+		},
+		{
+			"id": 15,
+			"image": "/motherboard/MSI A520M-A Pro AM4 AMD Micro-ATX.jpg",
+			"name": "MSI A520M-A Pro AM4 AMD Micro-ATX",
+			"category": "motherboard",
+			"price": "8500",
+			"status": "out of Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "MSI A520M-A Pro",
+				"Supported CPU": "AMD Ryzen 5000/4000G Series & AMD Ryzen 3rd Generation Processors",
+
+				"Memory-type": "2x DIMM, DDR4 3200 up to 64 GB",
+				"Graphics Output": "Core Boost, Turbo M.2 & Audio Boost",
+				"Features": "Supports up to 4600(OC) MHz RAM"
+			}
+		},
+		{
+			"id": 16,
+			"image": "/motherboard/MSI PRO H410M-B 10th Gen Micro-ATX.jpg",
+			"name": "MSI PRO H410M-B 10th Gen Micro-ATX",
+			"category": "motherboard",
+			"price": "8500",
+			"status": "out of Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "PRO H410M-B",
+				"Supported CPU": "Supports 10th Gen Intel Core, Pentium Gold & Celeron processors for LGA 1200 socket",
+
+				"Memory-type": "Supports DDR4 Memory, up to 2933(Max) MHz",
+				"Graphics Output": "Core Boost, DDR4 Boost, Turbo M.2",
+				"Features": "4x SATA 6Gb/s ports, 1x M.2 slot"
+			}
 		}
 	],
 
@@ -434,6 +742,250 @@
 				"Operating voltage": "1.5V",
 				"Pin": "240 pin",
 				"CAS Latency": "15.0/16.0"
+			}
+		},
+		{
+			"id": 24,
+			"image": "/ram/G.Skill Ripjaws V 4GB DDR4 2666MHz.jpg",
+			"name": "G.Skill Ripjaws V 4GB DDR4 2666MHz",
+			"category": "ram",
+			"price": "1750",
+			"status": "out of Stock",
+			"rating": "5",
+			"description": {
+				"MPN": "F4-2666C15D-8GVR",
+				"Model": " Ripjaws V",
+				"RAM": "4GB 2666MHz DDR4 Capacity",
+				"Tested Latency": "15-15-15-35",
+				"Tested Voltage": "1.20V",
+				"Feature": "Unbuffered, Non-ECC"
+			}
+		},
+		{
+			"id": 23,
+			"image": "/ram/Apacer Panther Golden 4GB DDR4.jpg",
+			"name": "Apacer Panther Golden 4GB DDR4",
+			"category": "ram",
+			"price": "1750",
+			"status": "out of Stock",
+			"rating": "5",
+			"description": {
+				"Model": "Panther Golden 4GB DDR4 2666MHZ",
+				"Frequency": "2666MHZ , PIN: 288-pin",
+				"Memory Architecture": "x8 FBGA DRAM chip",
+				"Capacity": "4GB"
+			}
+		},
+		{
+			"id": 25,
+			"image": "/ram/PNY XLR8 8GB DDR4 3200MHz.jpg",
+			"name": "PNY XLR8 8GB DDR4 3200MHz",
+			"category": "ram",
+			"price": "2150",
+			"status": "In Stock",
+			"rating": "5",
+			"description": {
+				"Model": "PNY XLR8",
+				"Frequency": "3200MHz (PC4-25600)",
+				"Memory Architecture": "x8 FBGA DRAM chip",
+				"Capacity": "4GB",
+				"support": "XMP 2.0 support"
+			}
+		}
+	],
+	"power_supply": [
+		{
+			"id": 30,
+			"image": "/power/FSP Hydro K PRO 750W 80 Plus Bronze.jpg",
+			"name": "FSP Hydro K PRO 750W 80 Plus Bronze",
+			"category": "power supply",
+			"price": "6500",
+			"status": "In Stock",
+			"rating": "3.5",
+			"description": {
+				"Model": " Hydro K PRO 750W",
+				"Rated Output Power": "750W",
+				"Fan Type": "HYB Fan, 120mm",
+				"Form Factor": "ATX"
+			}
+		},
+		{
+			"id": 31,
+			"image": "/power/FSP Hydro K PRO 600W 80 Plus Bronze.jpg",
+			"name": "FSP Hydro K PRO 600W 80 Plus Bronze",
+			"category": "power supply",
+			"price": "5500",
+			"status": "In Stock",
+			"rating": "3",
+			"description": {
+				"Model": " Hydro K PRO 600W",
+				"Rated Output Power": "600W",
+				"Fan Type": "HYB Fan, 120mm",
+				"Form Factor": "ATX"
+			}
+		},
+		{
+			"id": 32,
+			"image": "/power/FSP Hydro K PRO 500W 80 Plus Bronze.jpg",
+			"name": "FSP Hydro K PRO 500W 80 Plus Bronze",
+			"category": "power supply",
+			"price": "4300",
+			"status": "In Stock",
+			"rating": "3",
+			"description": {
+				"Model": " Hydro K PRO 500W",
+				"Rated Output Power": "500W",
+				"Fan Type": "HYB Fan, 120mm",
+				"Form Factor": "ATX"
+			}
+		},
+		{
+			"id": 33,
+			"image": "/power/Gigabyte P450B 450W 80 Plus Bronze.jpg",
+			"name": "Gigabyte P450B 450W 80 Plus Bronze",
+			"category": "power supply",
+			"price": "3600",
+			"status": "In Stock",
+			"rating": "3",
+			"description": {
+				"MPN": "GP-P450B/PSU 450W/80+B",
+				"Model": "Gigabyte P450B",
+				"Feature": "OVP/OPP/SCP/UVP/OCP/OTP protection",
+				"Capacity": "80 PLUS Bronze certified"
+			}
+		},
+		{
+			"id": 34,
+			"image": "/power/Antec Atom 550W 550 Watt Power Supply.jpg",
+			"name": "Antec Atom 550W 550 Watt Power Supply",
+			"category": "power supply",
+			"price": "3650",
+			"status": "In Stock",
+			"rating": "3",
+			"description": {
+				"Warranty": "2 Year Warranty",
+				"Model": "Antec Atom 550W",
+				"Voltage": "230VAC 5A 47-63Hz",
+				"Capacity": "550W Continuous Power"
+			}
+		},
+		{
+			"id": 35,
+			"image": "/power/Antec CUPRUM STRIKE CSK 450W 80 Plus Bronze.jpg",
+			"name": "Antec CUPRUM STRIKE CSK 450W 80 Plus Bronze ",
+			"category": "power supply",
+			"price": "4300",
+			"status": "In Stock",
+			"rating": "4",
+			"description": {
+				"MPN": "X5000A251HC-20",
+				"Model": "CUPRUM STRIKE CSK 450W",
+				"Capacity": "450W Continuous Power",
+				"Certified": "80 PLUS Bronze certified",
+				"Fan": "120 mm Silent Fan",
+				"Type": "ATX 12V 2.31"
+			}
+		}
+	],
+	"storage": [
+		{
+			"id": 40,
+			"image": "/storage/Seagate Internal 1TB SATA Barracuda HDD.jpg",
+			"name": "Seagate Internal 1TB SATA Barracuda HDD",
+			"category": "Storage",
+			"price": "4200",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"MPN": "ST1000DM010",
+				"Model": "BarraCuda",
+				"Capacity": "1TB",
+				"Interface": "SATA 6Gb/s",
+				"Latency Average": "6Gb/s",
+				"Rotational Speed": "7200 RPM"
+			}
+		},
+		{
+			"id": 41,
+			"image": "/storage/Western Digital 1TB Blue Desktop HDD.jpg",
+			"name": "Western Digital 1TB Blue Desktop HDD",
+			"category": "Storage",
+			"price": "4300",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "WD10EZEX",
+				"Capacity": "1TB",
+				"Interface": "SATA 6Gb/s",
+				"Latency Average": "8.9ms",
+				"Rotational Speed": "RPM- 7200"
+			}
+		},
+		{
+			"id": 42,
+			"image": "/storage/Toshiba S300 1TB 5700rpm  Surveillance.jpg",
+			"name": "Toshiba S300 1TB 5700rpm  Surveillance",
+			"category": "Storage",
+			"price": "4300",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"MPN": "HDWV110UZSVA",
+				"Model": "Toshiba S300",
+				"Buffer size": " 64 MB",
+				"Form factor": "3,5-inch",
+				"Interface": "6.0 Gbit/s",
+				"Cameras supported": "up to 64"
+			}
+		},
+		{
+			"id": 43,
+			"image": "/storage/Toshiba S300 1TB 5700rpm  Surveillance.jpg",
+			"name": "Toshiba S300 1TB 5700rpm  Surveillance",
+			"category": "Storage",
+			"price": "4300",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"MPN": "HDWV110UZSVA",
+				"Model": "Toshiba S300",
+				"Buffer size": " 64 MB",
+				"Form factor": "3,5-inch",
+				"Interface": "6.0 Gbit/s",
+				"Cameras supported": "up to 64"
+			}
+		},
+		{
+			"id": 44,
+			"image": "/storage/Seagate Barracuda 2TB 2.5 Inch.jpg",
+			"name": "Seagate Barracuda 2TB 2.5 Inch",
+			"category": "Storage",
+			"price": "8400",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"MPN": "ST2000LM015",
+				"Model": "Barracuda",
+				"Capacity": "2TB",
+				"Form factor": " 2.5 Inch",
+				"Interface (Built-in)": "SATA 6.0Gb/s",
+				"Average Seek Time": "13ms"
+			}
+		},
+		{
+			"id": 45,
+			"image": "/storage/Toshiba S300 4TB 3.5 Inch Surveillance HDD.jpg",
+			"name": "Toshiba S300 4TB 3.5 Inch Surveillance HDD",
+			"category": "Storage",
+			"price": "8500",
+			"status": "In Stock",
+			"rating": "4.5",
+			"description": {
+				"Model": "S300",
+				"Buffer": "128 MB buffer",
+				"Interface": "Serial ATA",
+				"Rotational Speed": "5400 RPM",
+				"Feature": "Toshiba Dynamic Cache Technology"
 			}
 		}
 	],

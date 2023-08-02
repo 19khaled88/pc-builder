@@ -52,7 +52,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl"></a>
+        
         <Link className="btn btn-ghost normal-case text-xl" href={'/'}>
           Build your PC
         </Link>
