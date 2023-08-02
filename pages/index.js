@@ -10,7 +10,7 @@ export default function HomePage({ display }) {
   return (
     <div className="">
       <h1 className="text-center text-lg font-bold pt-5">Home page</h1>
-      <HomeComponent display={display} />
+      <HomeComponent display={display.all} />
       <div>
         <h1 className="bg-orange-300 text-center p-5 text-2xl font-bold">
           Featured Categories
