@@ -1,10 +1,13 @@
 import RootLayout from '@/components/Layouts/RootLayout';
-import React from 'react';
+import path from 'path'
+import fsPromises from 'fs/promises'
+import { Monitor } from '@/components/Monitor/Monitor';
 
-const MonitorPage = () => {
+const MonitorPage = ({display}) => {
   return (
     <div>
-      <h1>This is monitor page</h1>
+      <h1 className="text-center text-lg font-bold pt-5">This is monitor page</h1>
+      <Monitor display={display} />
     </div>
   );
 }
@@ -17,4 +20,24 @@ MonitorPage.getLayout = function getLayout(page){
             {page}
         </RootLayout>
     )
+}
+
+export const getStaticProps = async () => {
+  if (typeof window === undefined) {
+    return {
+      props: {
+        display: [],
+      },
+    }
+  }
+
+  const filePath = path.join(process.cwd(), 'db.json')
+  const jsonData = await fsPromises.readFile(filePath)
+  const data = JSON.parse(jsonData)
+
+  return {
+    props: {
+      display: data,
+    },
+  }
 }

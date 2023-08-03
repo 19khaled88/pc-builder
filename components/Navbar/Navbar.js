@@ -7,8 +7,8 @@ const Navbar = () => {
     let array = []
     categories.map((data, index) => {
       array.push(
-        <li key={index}>
-          <Link href={`${Object.values(data).map((item)=>item)}`}>
+        <li className='p-1' key={index}>
+          <Link className='p-1 text-md' href={`${Object.values(data).map((item)=>item)}`}>
             {Object.keys(data).map((item) => item)}
           </Link>
         </li>,

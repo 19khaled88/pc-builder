@@ -1,13 +1,19 @@
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 import React from 'react'
 
 const Features = ({ display }) => {
+  const router = useRouter()
   const feature = display.features
+
+  const featureHandler=(category)=>{
+    router.push(`/features/${category}`)
+  }
   const displayFeature = (feature) => {
     let array = []
     feature.map((data,index) => {
       array.push(
-        <div key={index} className="card bg-base-100 shadow-xl image-full">
+        <div onClick={()=>featureHandler(data.category)} key={index} className="card bg-base-100 shadow-xl image-full cursor-pointer">
           <figure>
           <Image
               src={data.image}
@@ -19,8 +25,6 @@ const Features = ({ display }) => {
           </figure>
           <div className="card-body flex flex-row justify-center">
             <h2 className="card-title  h-full text-2xl">{data.name}</h2>
-            
-           
           </div>
         </div>,
       )
