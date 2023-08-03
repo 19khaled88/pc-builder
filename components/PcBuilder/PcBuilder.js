@@ -9,9 +9,9 @@ const PcBuilder = ({ display }) => {
   }
   const allDevices = (displayable) => {
     let array = []
-    displayable.map((data) => {
+    displayable.map((data,index) => {
       array.push(
-        <div className="flex flex-row gap-5">
+        <div className="flex flex-row gap-5" key={index}>
           <Image className='w-1/4 p-2 m-2' src={data.image} width={100} height={100} alt="No Image" />
           <div className='flex flex-row w-3/4 items-center'>
             <p className='w-3/4 text-left'>{data.name}</p>
