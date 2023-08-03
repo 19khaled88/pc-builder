@@ -601,6 +601,70 @@
         "Ports": "VGA",
         "Features": "Flicker Free"
       }
+    },
+    {
+      "id": 60,
+      "image": "/others/Hoco W35 Wireless Headphone.jpg",
+      "name": "Hoco W35 Wireless Headphone",
+      "category": "others",
+      "price": "1370",
+      "status": "In Stock",
+      "rating": "4.5",
+      "description": {
+        "Model": "W35",
+        "Bluetooth": 5.3,
+        "Battery capacity": "400mah",
+        "Duration": "Charging about 2 hours",
+        "Use or tempo": "40 hours"
+      }
+    },
+    {
+      "id": 61,
+      "image": "/others/COLMI P28 Plus Calling Smart Watch.jpg",
+      "name": "COLMI P28 Plus Calling Smart Watch",
+      "category": "others",
+      "price": "1999",
+      "status": "In Stock",
+      "rating": "4.5",
+      "description": {
+        "Model": "P28 Plus",
+        "Screen": "1.69 TFT Touch Screen, 240x280 Resolution",
+        "Processor": "Realtek RTL8762CK + JieLi AC6963A",
+        "Battery capacity": "235mAh",
+        "Waterproof level": "IP67"
+      }
+    },
+    {
+      "id": 62,
+      "image": "/others/Meta Quest 2 128 GB All-in-One VR System.jpg",
+      "name": "Meta Quest 2 128 GB All-in-One VR System",
+      "category": "others",
+      "price": "53000",
+      "status": "In Stock",
+      "rating": "4.5",
+      "description": {
+        "Model": "Quest 2",
+        "Display": "Blazing-fast processor and highest-resolution display",
+        "Controller": "Two Touch Controllers",
+        "Storage": "128 GB",
+        "Legacy": "Compatible with PC VR"
+      }
+    },
+    {
+      "id": 63,
+      "image": "/others/Epson EcoTank L3118 Multifunction Ink Tank Printer.jpg",
+      "name": "Epson EcoTank L3118 Multifunction Ink Tank Printer",
+      "category": "others",
+      "price": "25000",
+      "status": "out of Stock",
+      "rating": "4.5",
+      "description": {
+        "Model": "EcoTank L3118",
+        "Function": "Print, Scan, Copy",
+        "Print Speed": "33ppm (Black), 15ppm (Color)",
+        "Print Resolution": " 5,760 x 1,440 DPI",
+        "Scanner Type": "Flatbed with Color CIS"
+      }
     }
   ],
   "cpu": [
@@ -1294,7 +1358,7 @@
     {
       "id":1,
       "name": "cpu",
-      "category":"cpu",
+      "category":"processor",
       "image": "/features/cpu.jpg"
     },
     {
@@ -1308,13 +1372,31 @@
       "name": "monitor", 
       "category":"monitor",
       "image": "/features/monitor.png" },
-    { "id":4,
+    { 
+      "id":4,
       "name": "power suppler", 
-      "category":"power_supply",
-      "image": "/features/power_supply.png" },
-    { "id":5,"name": "ram", "category":"ram", "image": "/features/ram.jpg" },
-    { "id":6,"name": "storage","category":"storage", "image": "/features/storage.png" },
+      "category":"power supply",
+      "image": "/features/power_supply.png" 
+    },
+    { 
+      "id":5,
+      "name": "ram", 
+      "category":"ram", 
+      "image": "/features/ram.jpg" 
+    },
+    { 
+      "id":6,
+      "name": "storage",
+      "category":"Storage", 
+      "image": "/features/storage.png" 
+    },
 
-    { "id":7,"name": "others","category":"others", "image": "/features/mouse_keyboard.png" }
+    { 
+      "id":7,
+      "name": 
+      "others",
+      "category":"others", 
+      "image": "/features/mouse_keyboard.png" 
+    }
   ]
 }

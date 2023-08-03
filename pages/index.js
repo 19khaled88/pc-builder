@@ -7,6 +7,7 @@ import Features from '@/components/Features/Features'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function HomePage({ display }) {
+
   return (
     <div className="">
       <h1 className="text-center text-lg font-bold pt-5">Home page</h1>
