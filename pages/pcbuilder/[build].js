@@ -1,12 +1,14 @@
 import RootLayout from '@/components/Layouts/RootLayout';
 import path from 'path'
 import fsPromises from 'fs/promises'
+import ChooseDevice from '@/components/PcBuilder/ChooseDevice';
 
 const BuildPc = ({display}) => {
     console.log(display)
   return (
     <div>
       <p>Pc Build page</p>
+      <ChooseDevice display={display} />
     </div>
   );
 }
@@ -35,7 +37,7 @@ export const getServerSideProps = async (context) => {
     const jsonData = await fsPromises.readFile(filePath)
     const data = JSON.parse(jsonData)
     const temp = data.all.filter((item)=>item.category === context.query.build)
-    
+    console.log(temp)
     return {
       props: {
         display: temp,
