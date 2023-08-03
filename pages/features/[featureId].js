@@ -16,7 +16,7 @@ const FeatureProducts = ({ display }) => {
     shuffled.slice(0, randomNumber).map((data, index) => {
       array.push(
         <div
-          onClick={() => detailHandler(data.id)}
+          onClick={() => detailHandler(data.id,data.category)}
           key={index}
           className="card bg-base-100 shadow-xl p-2 cursor-pointer"
         >
@@ -52,6 +52,10 @@ const FeatureProducts = ({ display }) => {
     })
 
     return array
+  }
+
+  const detailHandler=(id,category)=>{
+    router.push(`/features/${category}/${id}`)
   }
 
   return (

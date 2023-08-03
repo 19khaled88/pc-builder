@@ -1,8 +1,10 @@
 import { categories } from '@/utils/helper'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import React from 'react'
 
 const Navbar = () => {
+  const router = useRouter()
   const categoryHandler = (categories) => {
     let array = []
     categories.map((data, index) => {
@@ -17,6 +19,9 @@ const Navbar = () => {
     return array
   }
 
+  const pcbuilderHandler=()=>{
+    router.push('/pcbuilder')
+  }
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -53,7 +58,7 @@ const Navbar = () => {
           </ul>
         </div>
         
-        <Link className="btn btn-ghost normal-case text-xl" href={'/'}>
+        <Link className="btn btn-ghost normal-case text-xl bg-gradient-to-r from-cyan-500 to-blue-500" href={'/'}>
           Build your PC
         </Link>
       </div>
@@ -94,7 +99,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">PC Builder</a>
+        <a onClick={()=>pcbuilderHandler()} className="btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">PC Builder</a>
       </div>
     </div>
   )
