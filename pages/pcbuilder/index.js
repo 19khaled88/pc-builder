@@ -2,13 +2,29 @@ import RootLayout from '@/components/Layouts/RootLayout';
 import path from 'path'
 import fsPromises from 'fs/promises'
 import PcBuilder from '@/components/PcBuilder/PcBuilder';
-
+import { useSelector } from 'react-redux';
+import { useRouter } from 'next/router';
+import { useState } from 'react';
 const PcBuilderPage = ({display}) => {
   
+  const router = useRouter()
+  const {data,isLoading,isSuccess,isError} = useSelector((state)=>state.builder)
+
+//  let isExist = false
+//  if(Object.keys(data).length > 0){
+//   data.map((element)=>{
+//    display.all.map((newElement)=>{
+//     if(newElement.id === element.id){
+//         isExist = true
+//      }
+//    } )
+//   })
+//  }
+ 
   return (
-    <div className='p-5 flex flex-col justify-center text-center'>
-      <p className='text-2xl'>Pc Builder page</p>
-      <PcBuilder display={display}/>
+    <div className='p-2 flex flex-col justify-center text-center'>
+      <p className='text-2xl p-5'>Pc Builder page</p>
+      <PcBuilder display={display} selectedCat={data}/>
     </div>
   );
 }

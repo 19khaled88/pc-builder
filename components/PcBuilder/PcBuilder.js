@@ -1,12 +1,28 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 
-const PcBuilder = ({ display }) => {
+const PcBuilder = ({ display, selectedCat }) => {
   const displayable = display.features;
   const router = useRouter();
+
   const chooseHandler = (category) => {
     router.push(`/pcbuilder/${category}`);
   };
+  const cancelHandler=(category)=>{
+    console.log(category)
+  }
+
+  const isSelected =(selectedCat ,current)=>{
+    let isTrue = false
+    selectedCat.find((element)=> element.category === current.category && (isTrue = true))    
+    if(isTrue === false){
+      return<p onClick={() => chooseHandler(current.category)} className="w-1/4 mr-5 p-2 rounded-md  flex flex-row justify-center items-center border border-blue-400 hover:bg-blue-400 cursor-pointer">Choose</p>
+    }else{
+      return<p onClick={()=>cancelHandler(current.category)} className="cursor-pointer w-1/4 mr-5 p-2 rounded-md  flex flex-row justify-center items-center border border-rose-400 hover:bg-rose-400">Cancel</p>
+    }
+  }
+ 
   const allDevices = (displayable) => {
     let array = [];
     displayable.map((data, index) => {
@@ -21,12 +37,8 @@ const PcBuilder = ({ display }) => {
           />
           <div className="flex flex-row w-3/4 items-center">
             <p className="w-3/4 text-left">{data.name}</p>
-            <button
-              onClick={() => chooseHandler(data.category)}
-              className="w-1/4 mr-5 p-2 rounded-md  flex flex-row justify-center items-center border border-blue-400 hover:bg-blue-400"
-            >
-              Choose
-            </button>
+            {isSelected(selectedCat,data)}
+            
           </div>
         </div>
       );

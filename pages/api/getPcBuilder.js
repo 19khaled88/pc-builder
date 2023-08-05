@@ -1,5 +1,3 @@
 export default function getPcBuilder(req,res){
-  res.send({message:'Get route'})
-}
-
-
+    res.send({message:'get requiest'})
+} 
