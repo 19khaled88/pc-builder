@@ -1,7 +1,7 @@
 import fsPromises from 'fs/promises';
 import path from 'path';
 
-const dataFilePath = path.join(process.cwd(), '../../db.json');
+const dataFilePath = path.join(process.cwd(), 'db.json');
 
 export default async function handler(req, res) {
 
