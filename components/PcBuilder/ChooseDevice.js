@@ -1,8 +1,13 @@
+import { addBuilder } from '@/pages/redux/features/builderSlice'
 import Image from 'next/image'
 import React from 'react'
-
+import {useDispatch,useSelector} from 'react-redux'
 const ChooseDevice = ({display}) => {
-    console.log(display)
+
+    const dispatch = useDispatch()
+   const addHandler=(data)=>{
+    dispatch(addBuilder(data))
+   }
   const showDevices=(display)=>{
     let array =[]
     display.map((data,index)=>{
@@ -14,7 +19,7 @@ const ChooseDevice = ({display}) => {
                 </div>
                 <div className='flex flex-col items-center gap-2 w-1/6'>
                     <p className='text-center'>Price : {data.price}</p>
-                    <button className='bg-blue-500 w-2/3 p-1 rounded-md'>Add</button>
+                    <button onClick={()=>addHandler(data)} className='bg-blue-500 w-2/3 p-1 rounded-md'>Add</button>
                 </div>
             </div>
         )

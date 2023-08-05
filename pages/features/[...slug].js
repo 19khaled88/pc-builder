@@ -5,7 +5,7 @@ import RootLayout from '@/components/Layouts/RootLayout'
 
 const CatchAllRoutes = ({display}) => {
   const router = useRouter()
-  console.log(display)
+ 
   return <div>{router.query.slug}</div>
 }
 
@@ -40,7 +40,7 @@ export const getStaticPaths = async () => {
 
   export const getStaticProps = async (context) => {
     const { params } = context
-    console.log(params)
+  
     const filePath = path.join(process.cwd(), 'db.json')
     const jsonData = await fsPromises.readFile(filePath)
     const data = JSON.parse(jsonData)

@@ -1,10 +1,19 @@
 import { categories } from '@/utils/helper'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import React from 'react'
-
+import React, {useEffect} from 'react'
+import { ToastContainer,toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
+import { useDispatch } from 'react-redux'
+import { getBuilder } from '@/pages/redux/features/builderSlice'
 const Navbar = () => {
   const router = useRouter()
+  const dispatch = useDispatch()
+  
+  useEffect(()=>{
+    dispatch(getBuilder())
+  },[])
+ 
   const categoryHandler = (categories) => {
     let array = []
     categories.map((data, index) => {
@@ -19,6 +28,7 @@ const Navbar = () => {
     return array
   }
 
+  
   const pcbuilderHandler=()=>{
     router.push('/pcbuilder')
   }
@@ -101,6 +111,7 @@ const Navbar = () => {
       <div className="navbar-end">
         <a onClick={()=>pcbuilderHandler()} className="btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">PC Builder</a>
       </div>
+      <ToastContainer />
     </div>
   )
 }

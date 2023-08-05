@@ -4,6 +4,7 @@ import { useRouter } from 'next/router'
 const PcBuilder = ({ display }) => {
   const displayable = display.features
   const router = useRouter()
+ 
   const chooseHandler=(category)=>{
    router.push(`/pcbuilder/${category}`)
   }
