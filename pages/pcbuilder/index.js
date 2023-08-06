@@ -2,11 +2,14 @@ import RootLayout from '@/components/Layouts/RootLayout'
 import path from 'path'
 import fsPromises from 'fs/promises'
 import PcBuilder from '@/components/PcBuilder/PcBuilder'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
+import { completeBuilder } from '@/components/redux/features/builderSlice'
+import { toast } from 'react-toastify'
 const PcBuilderPage = ({ display }) => {
   const router = useRouter()
+  const dispatch = useDispatch()
   const { data, isLoading, isSuccess, isError } = useSelector(
     (state) => state.builder,
   )
@@ -18,8 +21,12 @@ const PcBuilderPage = ({ display }) => {
     return amount
   }
    
- 
-  
+  const finishHandler=()=>{
+    dispatch(completeBuilder())
+    toast('You build a pc successfully!')
+    router.push('/pcbuilder')
+  }
+  console.log(data)
   //  let isExist = false
   //  if(Object.keys(data).length > 0){
   //   data.map((element)=>{
@@ -37,14 +44,14 @@ const PcBuilderPage = ({ display }) => {
       <div className="border border-blue-400 w-3/6 m-auto h-16 mb-2 flex flex-row justify-between ">
         <div className="flex flex-row ml-2 ">
           <button 
-           
+            onClick={(finishHandler)}
             className={`border border-rose-400 my-1 px-3 rounded-md hover:bg-rose-400 ${
-              Object.keys(data).length < 5
+            Object.keys(data).length < 5
                 ? 'opacity-50 cursor-not-allowed'
                 : null
             }`}
           >
-            Finish
+            Complete Build
           </button>
         </div>
         <div className="flex flex-col items-start px-3 bg-blue-400 mr-2 my-1 float-right border border-blue-400 rounded-md">

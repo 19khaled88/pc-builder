@@ -33,14 +33,27 @@ export const BuilderSlice = createSlice({
     },
     removeBuilder: (state, action) => {
       const local = JSON.parse(localStorage.getItem('pcBuilder'))
-      const temp = local.filter((element)=>element.category !== action.payload)
-      if(temp){
-        localStorage.setItem('pcBuilder',JSON.stringify(temp))
+      const temp = local.filter(
+        (element) => element.category !== action.payload,
+      )
+      if (temp) {
+        localStorage.setItem('pcBuilder', JSON.stringify(temp))
         state.data = temp
       }
+    },
+    completeBuilder: (state, action) => {
+      const temp = localStorage.removeItem('pcBuilder')
+     
+      state.data = []
+      
     },
   },
 })
 
-export const { addBuilder, getBuilder, removeBuilder } = BuilderSlice.actions
+export const {
+  addBuilder,
+  getBuilder,
+  removeBuilder,
+  completeBuilder,
+} = BuilderSlice.actions
 export default BuilderSlice.reducer

@@ -13,7 +13,7 @@ const PcBuilder = ({ display, selectedCat }) => {
     router.push(`/pcbuilder/${category}`);
   };
   const cancelHandler=(category)=>{
-    console.log(category)
+    
     dispatch(removeBuilder(category))
   }
 
