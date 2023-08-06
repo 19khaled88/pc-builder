@@ -1,16 +1,20 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import { removeBuilder } from "../redux/features/builderSlice";
+import { useDispatch } from "react-redux";
 
 const PcBuilder = ({ display, selectedCat }) => {
   const displayable = display.features;
+  const dispatch = useDispatch()
   const router = useRouter();
 
   const chooseHandler = (category) => {
     router.push(`/pcbuilder/${category}`);
   };
   const cancelHandler=(category)=>{
-   
+    console.log(category)
+    dispatch(removeBuilder(category))
   }
 
   const isSelected =(selectedCat ,current)=>{

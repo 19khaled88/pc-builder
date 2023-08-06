@@ -17,8 +17,9 @@ const PcBuilderPage = ({ display }) => {
     })
     return amount
   }
-
-  console.log(data)
+   
+ 
+  
   //  let isExist = false
   //  if(Object.keys(data).length > 0){
   //   data.map((element)=>{
@@ -35,7 +36,8 @@ const PcBuilderPage = ({ display }) => {
       <p className="text-2xl p-5">Pc Builder page</p>
       <div className="border border-blue-400 w-3/6 m-auto h-16 mb-2 flex flex-row justify-between ">
         <div className="flex flex-row ml-2 ">
-          <button
+          <button 
+           
             className={`border border-rose-400 my-1 px-3 rounded-md hover:bg-rose-400 ${
               Object.keys(data).length < 5
                 ? 'opacity-50 cursor-not-allowed'
