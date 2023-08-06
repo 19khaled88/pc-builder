@@ -5,7 +5,8 @@ import React, {useEffect} from 'react'
 import { ToastContainer,toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import { useDispatch } from 'react-redux'
-import { getBuilder } from '@/pages/redux/features/builderSlice'
+import { getBuilder } from '../redux/features/builderSlice'
+// import { getBuilder } from '@/pages/redux/features/builderSlice'
 const Navbar = () => {
   const router = useRouter()
   const dispatch = useDispatch()

@@ -1,7 +1,9 @@
-import { addBuilder } from '@/pages/redux/features/builderSlice'
+
 import Image from 'next/image'
 import React from 'react'
 import {useDispatch,useSelector} from 'react-redux'
+import { addBuilder } from '../redux/features/builderSlice';
+// import { addBuilder } from '@/pages/redux/features/builderSlice'
 const ChooseDevice = ({display}) => {
 
   const dispatch = useDispatch()
